@@ -10,6 +10,7 @@
         }
 
         table {
+            height: 400px;
             width: 400px;
             border-collapse: collapse;
         }
@@ -17,6 +18,12 @@
         td {
             border: 1px solid black;
             padding: 10px;
+            text-align: center; /*Alinhamento Horizontal*/
+            vertical-align: middle; /*Alinhamento Vertical*/
+        }
+
+        .numero {
+            text-align: right;
         }
 
         tr.linha {
@@ -26,6 +33,8 @@
         td.dado {
             background-color: darkgoldenrod;
         }
+
+
 
     </style>
 </head>
@@ -57,7 +66,7 @@
         <tr> <!--Quarta Linha-->
             <td>A4</td>
             <td class="dado">B4</td>
-            <td>C4</td>
+            <td class="numero">C4</td>
         </tr>
 
     </table>
