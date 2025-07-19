@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span class="material-icons" id="burguer" onclick="clickMenu()">menu</span>
+        <nav id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae hic, dolore molestiae neque rerum saepe quisquam odio officia delectus? Minus eaque molestias est explicabo ab asperiores atque suscipit, quidem odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nisi nulla blanditiis architecto consectetur quam vero? Doloremque libero harum necessitatibus tenetur tempora consectetur, neque error ullam at itaque quisquam ipsum.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, quisquam fugit. Inventore quisquam voluptatem dolor doloremque corporis porro maxime recusandae suscipit velit ipsum, minima quae rem dolores. Sunt, ratione vel.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolorem, amet molestiae aspernatur minima explicabo. Ut nesciunt porro doloribus velit, ex expedita cum aspernatur voluptatem neque magnam eos provident facere.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, maiores beatae temporibus commodi id laborum! Perspiciatis aspernatur voluptate in modi quo provident cum amet! Consequuntur, laboriosam quasi illum saepe sequi architecto fuga omnis animi! Molestiae fugit quibusdam eos distinctio optio odio natus delectus quisquam sit consectetur perspiciatis, repudiandae aliquam magnam dolorem, cupiditate doloribus. Praesentium voluptates impedit repellat beatae iste hic velit temporibus? Cumque, praesentium repellendus animi id, neque eaque modi porro qui facere dolorum tempore quasi corporis fugit nihil voluptatem deleniti dolores cum necessitatibus ea atque sint earum. Unde doloremque qui quis adipisci hic cum excepturi autem asperiores voluptate ipsa?</p>
+        </article>
+    </main>
+
+    <script>
+        var itens = document.getElementById("itens");
+        function clickMenu() {
+            if (itens.style.display == 'none') {
+                itens.style.display = 'block';
+            } else {
+                itens.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
