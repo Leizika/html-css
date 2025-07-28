@@ -45,8 +45,6 @@ nav > a {
     margin: 5px;
     border-radius: 10px;
     text-align: center;
-
-    align-items: flex-end;
 }
 
 nav > a:hover {
